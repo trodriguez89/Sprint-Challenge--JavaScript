@@ -77,7 +77,6 @@ for (let i = 0; i < graduates.length; i++){
     universities.push(graduates[i].university)
 }
 
-
 console.log(universities.sort());
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
@@ -127,7 +126,7 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
-zooAnimals.forEach(function(animalInfo){
+zooAnimals.forEach(function(animalInfo) {
   displayNames.push(`Name: ${animalInfo.animal_name}, Scientific: ${animalInfo.scientific_name}.`)
 })
 console.log(displayNames);
